@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon-32x32.png" />
+    <title>To Do APP</title>
+    <script type="module" crossorigin src="/To-Do-App-Third-Edition/assets/index-CSIxExO-.js"></script>
+    <link rel="stylesheet" crossorigin href="/To-Do-App-Third-Edition/assets/index-LcxoGIVz.css">
+  </head>
+  <!-- dark-theme -->
+  <body class="dark-theme">
+    <div class="container">
+      <div class="App_Wrapper">
+        <div class="header">
+          <h1 class="title">TODO</h1>
+          <div class="toggle_switch">
+            <img src="images/icon-moon.svg" alt="icon-moon" class="icon-moon" />
+            <img src="images/icon-sun.svg" alt="icon-sun" class="icon-sun" />
+          </div>
+        </div>
+        <form class="form">
+          <button class="form_button">
+            <img src="images/icon-check.svg" alt="" class="form_icon" />
+          </button>
+          <input
+            type="text"
+            class="form_input"
+            placeholder="Currently typing" />
+        </form>
+        <div class="dash_bord">
+          <!-- task_items_Active -->
+          <!-- task_items_Completed -->
+          <ul class="task_items task_items_Active task_items_Completed">
+            <li class="task_item task_item_checked">
+              <div class="data_task_item">
+                <button class="task_button">
+                  <img src="images/icon-check.svg" alt="" class="form_icon" />
+                </button>
+                <p class="data_task">first Task</p>
+              </div>
+              <div class="delete_task_icon">
+                <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='18'%20height='18'%3e%3cpath%20fill='%23494C6B'%20fill-rule='evenodd'%20d='M16.97%200l.708.707L9.546%208.84l8.132%208.132-.707.707-8.132-8.132-8.132%208.132L0%2016.97l8.132-8.132L0%20.707.707%200%208.84%208.132%2016.971%200z'/%3e%3c/svg%3e" alt="" />
+              </div>
+            </li>
+            <li class="task_item">
+              <div class="data_task_item">
+                <button class="task_button">
+                  <img src="images/icon-check.svg" alt="" class="form_icon" />
+                </button>
+                <p class="data_task">secound Task</p>
+              </div>
+
+              <div class="delete_task_icon">
+                <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='18'%20height='18'%3e%3cpath%20fill='%23494C6B'%20fill-rule='evenodd'%20d='M16.97%200l.708.707L9.546%208.84l8.132%208.132-.707.707-8.132-8.132-8.132%208.132L0%2016.97l8.132-8.132L0%20.707.707%200%208.84%208.132%2016.971%200z'/%3e%3c/svg%3e" alt="" />
+              </div>
+            </li>
+          </ul>
+          <div class="dash_bord_fotter">
+            <div class="itemsnumber">
+              <span class="number_of_items">2</span> items left
+            </div>
+            <ul class="task_status">
+              <li class="show_all_items state">All</li>
+              <li class="show_Active_Items state">Active</li>
+              <li class="show_completed_Items state">Completed</li>
+            </ul>
+            <div class="clear_completed_Items">Clear Completed</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
