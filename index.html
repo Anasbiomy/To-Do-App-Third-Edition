@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="icon" href="images/favicon-32x32.png" />
+    <title>To Do APP</title>
+  </head>
+  <!-- dark-theme -->
+  <body class="dark-theme">
+    <div class="container">
+      <div class="App_Wrapper">
+        <div class="header">
+          <h1 class="title">TODO</h1>
+          <div class="toggle_switch">
+            <img src="images/icon-moon.svg" alt="icon-moon" class="icon-moon" />
+            <img src="images/icon-sun.svg" alt="icon-sun" class="icon-sun" />
+          </div>
+        </div>
+        <form class="form">
+          <button class="form_button">
+            <img src="images/icon-check.svg" alt="" class="form_icon" />
+          </button>
+          <input
+            type="text"
+            class="form_input"
+            placeholder="Currently typing" />
+        </form>
+        <div class="dash_bord">
+          <!-- task_items_Active -->
+          <!-- task_items_Completed -->
+          <ul class="task_items task_items_Active task_items_Completed"></ul>
+          <div class="dash_bord_fotter">
+            <div class="itemsnumber">
+              <span class="number_of_items">2</span> items left
+            </div>
+            <ul class="task_status">
+              <li class="show_all_items state">All</li>
+              <li class="show_Active_Items state">Active</li>
+              <li class="show_completed_Items state">Completed</li>
+            </ul>
+            <div class="clear_completed_Items">Clear Completed</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/main.js" type="module"></script>
+  </body>
+</html>

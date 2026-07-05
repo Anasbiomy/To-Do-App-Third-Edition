@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/To-Do-App-Third-Edition",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "-": "^0.0.1-security.1",
+    "D": "^1.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "sass-embedded": "^1.100.0",
+    "vite": "^8.1.0"
+  }
+}
