@@ -182,13 +182,8 @@ h6 {
   width: 50rem;
   @media (width <= 500px) {
     width: 30rem;
-    --font-size-large: 1rem;
-    --font-size-xLarge: 2.2rem;
-    --font-weight-regular: 300;
-    --font-weight-bold: 400;
   }
 }
-//  @media (width <= 375px) {}
 
 .header {
   display: flex;
@@ -290,7 +285,6 @@ h6 {
 .data_task_item {
   display: flex;
   align-items: center;
-
   gap: 1rem;
 }
 .data_task {
