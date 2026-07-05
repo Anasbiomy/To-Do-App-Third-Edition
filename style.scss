@@ -325,14 +325,13 @@ li:first-child {
   border: 1px solid transparent; /* نجعل الحدود شفافة ليظهر التدرج من خلفها */
 }
 .delete_task_icon {
-  display: none;
-  width: 1.5rem;
-  size: 1rem;
+  opacity: 0;
+  width: 2rem;
 }
 
 .task_item:hover {
   .delete_task_icon {
-    display: inline-block;
+    opacity: 1;
     cursor: pointer;
   }
 }
@@ -364,7 +363,8 @@ li:first-child {
   margin-top: 0;
   font-size: var(--font-size-small);
   font-weight: var(--font-weight-regular);
-  color: var(--gray-600);
+  color: var(--text-main);
+
   font-family: Josefin Sans;
   background-color: var(--navy-900);
   box-shadow: 0 15px 20px -5px var(--gray-600);
@@ -383,7 +383,8 @@ li:first-child {
     border-radius: 0 0 3px 3px;
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-regular);
-    color: var(--gray-600);
+    color: var(--text-main);
+
     font-family: Josefin Sans;
     background-color: var(--navy-900);
     box-shadow: none;
