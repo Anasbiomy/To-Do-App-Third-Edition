@@ -34,7 +34,7 @@ export const renderTasks = () => {
               </div>
 
               <div class="delete_task_icon">
-                <img src="/images/icon-cross.svg" alt="" />
+                <img src="images/icon-cross.svg" alt="" />
               </div>
             </li>
     `;
