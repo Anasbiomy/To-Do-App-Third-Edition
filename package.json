@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/To-Do-App-Third-Edition/",
+    "build": "vite build --base=/To-Do-App-Third-Edition",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
