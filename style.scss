@@ -20,7 +20,7 @@
   /* ==========================================
      2. DEFAULT LIGHT THEME (الألوان الافتراضية - الفاتح)
      ========================================== */
-  --bg-main: var(--gray-50);
+  --bg-main: rgb(240, 240, 240);
   --text-main: var(--navy-850);
 
   --gray-50: hsl(0, 0%, 98%);
@@ -239,7 +239,7 @@ h6 {
     flex: 1;
     align-items: center;
     border-radius: 0.1rem;
-    font-size: var(--font-size-large);
+    // font-size: var(--font-size-large);
     color: var(--text-main);
     font-weight: var(--font-weight-regular);
     font-family: Josefin Sans;
